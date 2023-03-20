@@ -7,14 +7,19 @@
 		<title>Document</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
 	</head>
-	<body>
-		<h1>Test</h1>
-		<form id="form" action="">
-			<label for="query">Search:</label>
-			<input type="text" name="query" id="query" />
-			<button>Start</button>
-		</form>
-		<ul id="results"></ul>
+	<body class="row">
+		<div class="col s4">
+			<h1>Test</h1>
+			<form id="form" action="">
+				<label for="query">Search:</label>
+				<input type="text" name="query" id="query" />
+				<button>Start</button>
+			</form>
+			<ul id="results"></ul>
+		</div>
+		<div class="col s8">
+			<h2>Results</h2>
+		</div>
 		<script src="script.js"></script>
 	</body>
 </html>
