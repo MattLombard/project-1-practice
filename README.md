@@ -11,9 +11,8 @@ The completed application should meet the following criteria:
 - As a user, I can either perform a generic search for data in all formats or I can select a format in the form to help filter results.
 
 - As a user, I can see all of the results of my search displayed on a separate page.
-
+chapstick
 - As a user, I can conduct additional searches from the results page as well.
-
 To learn about how to use this API, check out the Requests section of the [Library of Congress API documentation](https://libraryofcongress.github.io/data-exploration/).
 
 ### The Homepage
